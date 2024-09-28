@@ -29,7 +29,8 @@ The Pulsar UAV project leverages advanced drone technology to enhance applicatio
 - Communication System
 
 ##Software Setup
--*Rush2 installation* 
+-*Ros2 installation* 
+
 first install Ros 2
 sudo apt update && sudo apt upgrade -y
 sudo locale-gen en_US en_US.UTF-8
