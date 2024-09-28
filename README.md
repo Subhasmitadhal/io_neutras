@@ -26,7 +26,7 @@ The Pulsar UAV project leverages advanced drone technology to enhance applicatio
 - LiDAR Unit
 - Ground Control Station
 - Communication System
-##Software Setup
+## Software Setup
 Ros2 installation* 
 ```bash
 first install Ros 2
@@ -52,8 +52,7 @@ first install Ros 2
 # source ~/ros2_ws/install/setup.bash
 # echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 ```
-SLAM installation
-
+## SLAM installation
 Install SLAM In Ros2 Env
 ```bash
 # ros2 pkg list | grep slam_toolbox
@@ -78,6 +77,7 @@ Creat a python virtual environment
 # python3 -m venv myenv
 # source myenv/bin/activate
 ```
+## install lib
 ```bash
 # install torch
 # install csv
