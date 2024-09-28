@@ -13,7 +13,7 @@ The Pulsar UAV project leverages advanced drone technology to enhance applicatio
 - LiDAR
 - Autonomous Navigation
 - AI Integration
-
+ 
 ## Features
 - Real-time data transmission and monitoring
 - Modular payload system for various sensor configurations
@@ -72,4 +72,24 @@ export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_cartographer cartographer.launch.py
 ros2 launch slam_toolbox online_async_launch.py
 ros2 launch nav2_bringup rviz_launch.py
+```
+Our innovation is 
+
+Swarm technology in drones refers to the coordination and control of multiple drones (or UAVs) to work together as a unified system to achieve common goals. which operate using decentralized control and self-organization principles.
+The drones in a swarm need to communicate with each other. This can be done through wireless protocols or specialized communication protocols tailored for drone-to-drone communication. MAVLink is commonly used in UAV communication.
+
+Creat a python virtual environment
+```bash
+# sudo apt install python3
+# sudo apt install python3-pip
+# python3 -m venv myenv
+# source myenv/bin/activate
+```
+```bash
+# install torch
+# install csv
+# install argpars
+```
+
+
 
