@@ -29,6 +29,8 @@ The Pulsar UAV project leverages advanced drone technology to enhance applicatio
 - Communication System
 
 ##Software Setup
+
+
 -*Ros2 installation* 
 
 first install Ros 2
@@ -53,4 +55,21 @@ cd ~/ros2_ws/
 colcon build
 source ~/ros2_ws/install/setup.bash
 echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+
+
+
+
+
+-*SLAM installation*
+
+Install SLAM In Ros2 Env
+ros2 pkg list | grep slam_toolbox
+sudo apt install ros-foxy-navigation2
+sudo apt install ros-foxy-nav2-bringup
+sudo apt install ros-foxy-map-server ros-foxy-amcl ros-foxy-lifecycle-msgs
+sudo apt install ros-foxy-turtlebot3 ros-foxy-turtlebot3-simulations
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_cartographer cartographer.launch.py
+ros2 launch slam_toolbox online_async_launch.py
+ros2 launch nav2_bringup rviz_launch.py
 
