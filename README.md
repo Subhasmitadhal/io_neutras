@@ -32,7 +32,7 @@ The Pulsar UAV project leverages advanced drone technology to enhance applicatio
 
 
 -*Ros2 installation* 
-
+```bash
 first install Ros 2
 sudo apt update && sudo apt upgrade -y
 sudo locale-gen en_US en_US.UTF-8
